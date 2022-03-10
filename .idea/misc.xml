@@ -5,7 +5,8 @@
       <map>
         <entry key="..\:/ElderlyCare/app/src/main/res/layout-w1240dp/activity_login.xml" value="0.2352744310575636" />
         <entry key="..\:/ElderlyCare/app/src/main/res/layout-w936dp/activity_login.xml" value="0.274609375" />
-        <entry key="..\:/ElderlyCare/app/src/main/res/layout/activity_login.xml" value="0.36614583333333334" />
+        <entry key="..\:/ElderlyCare/app/src/main/res/layout/activity_login.xml" value="0.1" />
+        <entry key="..\:/ElderlyCare/app/src/main/res/layout/activity_register.xml" value="0.14869888475836432" />
         <entry key="..\:/ElderlyCare/app/src/main/res/layout/activity_start.xml" value="0.36614583333333334" />
       </map>
     </option>

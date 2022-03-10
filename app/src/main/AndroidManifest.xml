@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ElderlyCare">
         <activity
+            android:name=".register"
+            android:exported="false" />
+        <activity
             android:name=".ui.login.StartActivity"
             android:exported="false" />
         <activity
