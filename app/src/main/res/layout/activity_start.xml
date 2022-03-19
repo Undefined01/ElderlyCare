@@ -43,6 +43,7 @@
                         android:layout_marginEnd="24dp"
                         android:layout_marginBottom="60dp"
                         android:gravity="center"
+                        android:onClick="jumpToLogin"
                         android:text="@string/action_sign_in"
                         android:textSize="34sp" />
 
@@ -52,6 +53,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="24dp"
                         android:layout_marginEnd="24dp"
+                        android:onClick="jumpToRegister"
                         android:text="@string/action_sign_up"
                         android:textSize="34sp" />
 
@@ -243,6 +245,7 @@
                     android:id="@+id/textView10"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
                     android:text="花旗推荐"
                     android:textSize="24sp" />
 
@@ -277,7 +280,6 @@
                             android:orientation="vertical"
                             app:layout_constraintBottom_toBottomOf="parent"
                             app:layout_constraintEnd_toEndOf="parent"
-                            app:layout_constraintStart="@+id/imageView"
                             app:layout_constraintStart_toEndOf="@+id/imageView"
                             app:layout_constraintTop_toTopOf="parent">
 
@@ -319,6 +321,7 @@
                     android:id="@+id/textView9"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
                     android:text="外汇汇率"
                     android:textSize="24sp" />
 
