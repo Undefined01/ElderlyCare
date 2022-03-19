@@ -246,11 +246,10 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="20dp"
-                    android:text="花旗推荐"
-                    android:textSize="24sp" />
+                              android:textSize="24sp" />
 
                 <com.github.xiaofeidev.round.RoundFrameLayout
-                    android:id="@+id/frame1"
+                    android:id="@+id/frame6"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="10dp"
@@ -347,7 +346,7 @@
                                 android:layout_width="60dp"
                                 android:layout_height="30dp"
                                 android:layout_weight="1"
-                                android:src="@drawable/flag_CN" />
+                                android:src="@drawable/flag_cn" />
 
                             <ImageView
                                 android:id="@+id/imageView10"
@@ -361,11 +360,11 @@
                                 android:layout_width="60dp"
                                 android:layout_height="30dp"
                                 android:layout_weight="1"
-                                android:src="@drawable/flag_US" />
+                                android:src="@drawable/flag_us" />
                         </LinearLayout>
 
                         <TextView
-                            android:id="@+id/textView16"
+                            android:id="@+id/textView18"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="6.2826" />
@@ -395,7 +394,7 @@
                                 android:layout_width="60dp"
                                 android:layout_height="30dp"
                                 android:layout_weight="1"
-                                android:src="@drawable/flag_CN" />
+                                android:src="@drawable/flag_cn" />
 
                             <ImageView
                                 android:id="@+id/imageView13"
@@ -409,7 +408,7 @@
                                 android:layout_width="60dp"
                                 android:layout_height="30dp"
                                 android:layout_weight="1"
-                                android:src="@drawable/flag_US" />
+                                android:src="@drawable/flag_us" />
                         </LinearLayout>
 
                         <TextView
@@ -538,16 +537,20 @@
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintStart_toStartOf="parent"
                             app:layout_constraintTop_toTopOf="parent"
-                            app:srcCompat="@drawable/ic_action_security" />
+                            app:srcCompat="@drawable/ic_action_security"
+                            android:clickable="true"
+                            />
 
                         <TextView
                             android:id="@+id/textView13"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="投资产品"
+                            android:onClick="jumpToRecommend"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintStart_toStartOf="parent"
-                            app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+                            app:layout_constraintTop_toBottomOf="@+id/imageView4"
+                            />
                     </androidx.constraintlayout.widget.ConstraintLayout>
 
                     <View

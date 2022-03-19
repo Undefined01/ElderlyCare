@@ -1,9 +1,9 @@
 package citicup.elderlycare
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import androidx.appcompat.app.AppCompatActivity
 import citicup.elderlycare.ui.login.LoginActivity
 
 @Suppress("unused_parameter")
@@ -19,6 +19,10 @@ class StartActivity : AppCompatActivity() {
     }
     fun jumpToRegister(view: View) {
         val intent = Intent(this, RegisterActivity::class.java)
+        startActivity(intent)
+    }
+    fun jumpToRecommend(view: View){
+        val intent = Intent(this, RecommendActivity::class.java)
         startActivity(intent)
     }
 }

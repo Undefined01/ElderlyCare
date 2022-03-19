@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  债券推荐 -->
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RecommendActivity">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="30dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="返回"
+            tools:layout_editor_absoluteX="30dp"
+            tools:layout_editor_absoluteY="533dp" />
+
+        <com.github.xiaofeidev.round.RoundFrameLayout
+            android:id="@+id/frame4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="5dp"
+            app:rd_radius="20dp">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/elderly4"
+                    android:layout_width="141dp"
+                    android:layout_height="163dp"
+                    android:layout_margin="0dp"
+                    android:padding="0dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/elderly4" />
+
+                <LinearLayout
+                    android:layout_width="206dp"
+                    android:layout_height="177dp"
+                    android:background="@color/teal_700"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toEndOf="@+id/elderly4"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.0">
+
+                    <ImageView
+                        android:id="@id/arrow"
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:src="@drawable/ic_action_right" />
+
+                    <TextView
+                        android:id="@+id/textView18"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="前海开源可转债"
+                        android:textColor="@android:color/primary_text_dark"
+                        android:textSize="14dp" />
+                </LinearLayout>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </com.github.xiaofeidev.round.RoundFrameLayout>
+
+        <com.github.xiaofeidev.round.RoundFrameLayout
+            android:id="@+id/frame6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="5dp"
+            app:rd_radius="20dp">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/elderly5"
+                    android:layout_width="141dp"
+                    android:layout_height="163dp"
+                    android:layout_margin="0dp"
+                    android:padding="0dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/elderly5" />
+
+                <LinearLayout
+                    android:layout_width="206dp"
+                    android:layout_height="177dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@color/teal_700"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toEndOf="@+id/elderly5"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="1.0">
+
+                    <ImageView
+                        android:id="@+id/arrow"
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:src="@drawable/ic_action_right" />
+
+                    <TextView
+                        android:id="@+id/textView15"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="鹏华可转债"
+                        android:textColor="@android:color/primary_text_dark"
+                        android:textSize="14dp" />
+                </LinearLayout>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </com.github.xiaofeidev.round.RoundFrameLayout>
+
+        <com.github.xiaofeidev.round.RoundFrameLayout
+            android:id="@+id/frame7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="5dp"
+            app:rd_radius="20dp">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/elderly6"
+                    android:layout_width="141dp"
+                    android:layout_height="163dp"
+                    android:layout_margin="0dp"
+                    android:padding="0dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/elderly6" />
+
+                <LinearLayout
+                    android:layout_width="206dp"
+                    android:layout_height="177dp"
+                    android:background="@color/teal_700"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toEndOf="@+id/elderly6"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="1.0">
+
+                    <ImageView
+                        android:id="@id/arrow"
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:src="@drawable/ic_action_right" />
+
+                    <TextView
+                        android:id="@+id/textView16"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="华夏可转债增强A"
+                        android:textColor="@android:color/primary_text_dark"
+                        android:textSize="14dp" />
+                </LinearLayout>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </com.github.xiaofeidev.round.RoundFrameLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
